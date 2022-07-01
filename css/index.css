@@ -1,1 +1,6 @@
 /*Navigation Bar*/
+.inlineBlock {
+    display: inline-block;
+    background-color: blue;
+    vertical-align: top;
+}
