@@ -11,12 +11,13 @@
 .bamLogo {
     width: auto;
     height: 60px;
+    margin-left: 142px;
 }
 nav {
     padding: 1%;
 }
 ul {
-    margin-left: auto;
+    margin-right: 142px;
 }
 li {
     display: inline;
@@ -25,6 +26,9 @@ li {
     margin-right: 20px;
     font-size: 18px;
 }
+/*End Navigation Bar*/
+/*Hero*/
+
 /*Footer*/
 footer {
     vertical-align: bottom;
@@ -36,12 +40,21 @@ footer {
     justify-content: space-between;
 }
 .copyright {
-    margin-left: 20px;
+    margin-left: 142px;
     color: #F8F8F8;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
 .social {
     color: #F8F8F8;
-    height: 900px;
+    margin-right: 142px;
+    max-width: 100%;
 }
+.email {
+    height: 26px;
+    padding-right: 10px;
+}
+.linkedin {
+    height: 26px;
+}
+/*End Footer*/
