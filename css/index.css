@@ -80,16 +80,21 @@ h2 {
     top: 742px;
     margin-left: 145px;
 }
-.uwh {
+.uwh, .dol, .clarity {
     display: flex;
     align-items: top;
     justify-content: space-around;
     margin-left: 145px;
 }
-img, .uwh {
+.caseStudies img {
     margin-right: 20px; 
+    border: 3px solid #9FE2BF;
+    margin-left: auto;
 }
-.uwhContent {
+.clarity img {
+    margin-bottom: 100px;
+}
+.uwhContent, .dolContent, .clarityContent {
     margin-right: 80px;
 }
 h3 {
@@ -98,7 +103,7 @@ h3 {
     font-size: 24px;
     font-weight: 400;
 }
-p, .caseStudies {
+.caseStudies p {
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     color: #323C3F;
@@ -106,12 +111,17 @@ p, .caseStudies {
 }
 button {
     background-color: #A48596; 
-    color: #323C3F;
+    color: #F8F8F8;
     font-family: 'Alatsi', sans-serif;
+    width: 340px;
+    height: 42px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
 }
 button:hover {
     background-color: #C2ADBC; 
-    color: #323C3F;
 }
 /*Footer*/
 footer {
