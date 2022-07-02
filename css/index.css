@@ -71,6 +71,48 @@ h1 {
     font-size: 24px;
 }
 /*End Hero*/
+/*Body*/
+h2 {
+    font-family: 'Alatsi', sans-serif;
+    color: #323C3F;
+    font-weight: 400;
+    font-size: 32px;
+    top: 742px;
+    margin-left: 145px;
+}
+.uwh {
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    margin-left: 145px;
+}
+img, .uwh {
+    margin-right: 20px; 
+}
+.uwhContent {
+    margin-right: 80px;
+}
+h3 {
+    font-family: 'Alatsi', sans-serif;
+    color: #323C3F;
+    font-size: 24px;
+    font-weight: 400;
+}
+p, .caseStudies {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #323C3F;
+    font-weight: 400;
+}
+button {
+    background-color: #A48596; 
+    color: #323C3F;
+    font-family: 'Alatsi', sans-serif;
+}
+button:hover {
+    background-color: #C2ADBC; 
+    color: #323C3F;
+}
 /*Footer*/
 footer {
     vertical-align: bottom;
