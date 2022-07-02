@@ -31,20 +31,24 @@ li {
 }
 /*End Navigation Bar*/
 /*Hero*/
+.hero {
+    position: relative;
+}
 .heroPurple {
     width: 862px;
     background-color: #A48596;
     height: 462px;
     z-index: 0;
-    position: absolute;
     left: 142px;
-    top: 180px;
+    top: 50px;
+    position: relative;
+    margin-bottom: 125px;
 }
 .heroImage {
     position: absolute;
     z-index: 1;
     left: 727px;
-    top: 215px;
+    top: 85px;
 }
 .heroContent {
     position: absolute;
@@ -53,15 +57,14 @@ li {
 }
 h1 {
     width: 448px;
-    top: 900px;
     left: 161px;
     font-family: 'Alatsi', sans-serif;
     color:#F8F8F8;
 }
-p, .heroContent {
+.heroContent{
     color:#F8F8F8;
     width: 802px;
-    top: 336px;
+    top: 206px;
     left: 161px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
