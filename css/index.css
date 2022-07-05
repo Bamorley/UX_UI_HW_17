@@ -4,9 +4,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
   }
-  
   footer {
     margin-top: auto;
+  }
+  p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #323C3F;
+    font-weight: 400;
   }
 /*Navigation Bar*/
 .navigation {
@@ -77,6 +82,15 @@ li {
     font-weight: 400;
     font-size: 24px;
 }
+.pHero {
+    color:#F8F8F8;
+    width: 802px;
+    top: 206px;
+    left: 161px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
 /*End Hero*/
 /*Body*/
 h1 {
@@ -91,7 +105,6 @@ h2 {
     font-weight: 400;
     font-size: 32px;
     top: 742px;
-    margin-left: 145px;
 }
 .uwh, .dol, .clarity {
     display: flex;
@@ -103,6 +116,7 @@ h2 {
     margin-right: 20px; 
     border: 3px solid #9FE2BF;
     margin-left: auto;
+    margin-bottom: 50px;
 }
 .clarity img {
     margin-bottom: 100px;
@@ -122,6 +136,7 @@ h3 {
     color: #323C3F;
     font-weight: 400;
 }
+/*Buttons*/
 button {
     background-color: #A48596; 
     color: #F8F8F8;
@@ -136,6 +151,21 @@ button {
 button:hover {
     background-color: #C2ADBC; 
 }
+.secondaryButton {
+    background-color: #F8F8F8; 
+    color: #A48596;
+    font-family: 'Alatsi', sans-serif;
+    width: 340px;
+    height: 42px;
+    border: 2px solid #A48596;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.secondaryButton:hover {
+    background-color: lightgray; 
+}
+/*End Buttons*/
 /*Footer*/
 footer {
     vertical-align: bottom;
@@ -170,13 +200,13 @@ footer {
     border-radius: 50%;
     height: 300px;
     width: auto;
+    margin: 20px;
 }
 .aboutMe {
     display: flex;
     flex-direction: row;
+    margin-right: 100px;
 }
 .aboutFooter {
-    display: flex;
-    flex-direction: column;
-
+    flex: none;
 }
