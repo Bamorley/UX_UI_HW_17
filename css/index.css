@@ -154,6 +154,7 @@ button {
     text-align: center;
     font-size: 18px;
     border-radius: 8px;
+    margin-right: 20px;
 }
 button:hover {
     background-color: #C2ADBC; 
@@ -183,7 +184,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
-.copyright {
+.copyright p {
     margin-left: 142px;
     color: #F8F8F8;
     font-family: 'Titillium Web', sans-serif;
