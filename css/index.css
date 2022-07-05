@@ -1,6 +1,13 @@
 body {
     background-color: #F8F8F8;
-}
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
 /*Navigation Bar*/
 .navigation {
     vertical-align: top;
@@ -30,7 +37,7 @@ li {
     font-size: 18px;
 }
 /*End Navigation Bar*/
-/*Hero*/
+/*Hero on Homepage*/
 .hero {
     position: relative;
 }
@@ -55,7 +62,7 @@ li {
     z-index: 2;
     left: 170px;
 }
-h1 {
+.hero h1 {
     width: 448px;
     left: 161px;
     font-family: 'Alatsi', sans-serif;
@@ -72,6 +79,12 @@ h1 {
 }
 /*End Hero*/
 /*Body*/
+h1 {
+    font-family: 'Alatsi', sans-serif;
+    color: #323C3F;
+    font-weight: 400;
+    font-size: 40px;
+}
 h2 {
     font-family: 'Alatsi', sans-serif;
     color: #323C3F;
@@ -152,3 +165,18 @@ footer {
     height: 26px;
 }
 /*End Footer*/
+/*About page*/
+.aboutImg {
+    border-radius: 50%;
+    height: 300px;
+    width: auto;
+}
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+}
+.aboutFooter {
+    display: flex;
+    flex-direction: column;
+
+}
