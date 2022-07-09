@@ -48,6 +48,9 @@ li {
 .navLink:hover {
     color: #9FE2BF;
 }
+.active {
+    text-decoration: underline;
+}
 /*End Navigation Bar*/
 /*Hero on Homepage*/
 .hero {
@@ -56,11 +59,10 @@ li {
     margin: 0 auto;
 }
 .heroPurple {
-    width: 862px;
     background-color: #A48596;
     height: 462px;
     z-index: 0;
-    right: -100px;
+    left: 5px;
     width: 80%;
     margin-top: 50px;
     position: relative;
@@ -72,6 +74,8 @@ li {
     right: -75px;
     margin-right: 50px;
     top: 85px;
+    height: auto;
+    box-shadow: 5px 5px 10px grey;
 }
 .hero h1 {
     width: 448px;
@@ -82,7 +86,7 @@ li {
 .heroContent{
     color:#F8F8F8;
     top: 150px;
-    left: 130px;
+    left: 50px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-size: 24px;
